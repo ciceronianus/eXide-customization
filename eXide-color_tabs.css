@@ -1,0 +1,60 @@
+.tab[title$=".xml"] {
+    background: lightblue !important;
+    
+}
+
+:is(.tab[title$=".xql"],
+.tab[title$=".xqm"],
+.tab[title$=".xq"],
+.tab[title$=".xquery"])
+
+{
+    background: lightgreen !important;
+    
+}
+
+
+.tab[title$=".html"],
+.tab[title$=".htm"]
+{
+    background: #fae1b4 !important;
+    
+}
+
+
+#tabs .tab:hover {
+    background-color: #f1e0e0 !important;
+    
+}
+
+
+/* active tabs */
+#tabs .active {
+      background-color: #f1e0e0 !important;
+    
+}
+
+
+#tabs .tab[title$=".xml"].active {
+    background-color: blue !important;
+    color: white;
+    
+}
+
+#tabs :is(.tab[title$=".xql"],
+.tab[title$=".xqm"],
+.tab[title$=".xq"],
+.tab[title$=".xquery"]).active {
+    background-color: green !important;
+    color: white;
+    
+}
+
+
+#tabs :is(.tab[title$=".html"],
+.tab[title$=".htm"]).active 
+{
+    background-color: #fcab17 !important;
+    color:white;
+    
+}
