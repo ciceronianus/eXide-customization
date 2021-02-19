@@ -1,0 +1,15 @@
+/* highlight the triangle of folder part */
+.ace_closed {
+    background-color: #99c9f6;    
+}
+
+
+/* Highlights the current line */
+.ace_gutter > div.ace_gutter-active-line {
+    background-color: #fde0e0 !important;    
+}
+
+
+.ace_active-line {
+    background-color: #fde0e0 !important;
+}
