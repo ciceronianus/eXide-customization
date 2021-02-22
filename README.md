@@ -17,7 +17,9 @@ Use it with a browser extension like [Stylus](https://chrome.google.com/webstore
 - eXide-color_tabs.css - colored tabs based on their type
 ![colored tabs](screenshots/colored_tabs.png) 
 - eXide-editor.css - higlight the active line in the editor
+![highlighted current line](screenshots/highlighted_current_line.png)
 - eXide-manage_on_top.css - puts the "Manage" application in eXide on the top of the File menu
+![manage on top](screenshots/manage_on_top.png)
 - eXide-folder_color.css - grays out default collections in the eXide menu and adds colors to some default subcollections (data, modules, resources) 
 
 
