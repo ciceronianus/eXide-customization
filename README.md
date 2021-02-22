@@ -12,9 +12,9 @@ Use it with a browser extension like [Stylus](https://chrome.google.com/webstore
 - Copy this code into the new Stylus window
 - Give it a name, save it and it should work
 
-## Scripts
+## Stylesheets
 
-- eXide-small_tweeks - general small tweeks to eXide
+- eXide-small_tweeks.css - general small tweeks to eXide
 - eXide-color_tabs.css - colored tabs based on their type
 ![colored tabs](screenshots/colored_tabs.png) 
 - eXide-editor.css - higlight the active line in the editor
