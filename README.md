@@ -10,7 +10,7 @@ Use it with a browser extension like [Stylus](https://chrome.google.com/webstore
 - Select "Write style for" with the eXide URL
 
 ![stylus](screenshots/stylus.png)
-- Copy into the new Stylus window the CSS code of selected .CSS file
+- Copy into the new Stylus window the CSS code of the selected .CSS file
 - Give it a name, save it and it should work
 
 ## Stylesheets
