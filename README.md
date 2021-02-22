@@ -8,6 +8,7 @@ Use it with a browser extension like [Stylus](https://chrome.google.com/webstore
 - Open eXide
 - Click on the extension
 - Select "Write style for" with the eXide URL
+![stylus](screenshots/stylus.png)
 - Copy this code into the new Stylus window
 - Give it a name, save it and it should work
 
