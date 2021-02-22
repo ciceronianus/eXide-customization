@@ -1,0 +1,23 @@
+
+.collection:is([data-key$="/dashboard"],[data-key$="/eXide"],[data-key$="/fundocs"],[data-key$="/monex"],[data-key$="/packageservice"],[data-key$="/markdown"]) {
+  color: #d7d6d6;
+  
+}
+
+
+.collection:is([data-key$="/data"]) > i {
+  color: #e17979;
+  
+}
+
+.collection:is([data-key$="/modules"]) > i {
+  color: #9ac64e;
+  
+}
+
+
+.collection:is([data-key$="/resources"]) > i {
+  color: #cc8740;
+  
+}
+
