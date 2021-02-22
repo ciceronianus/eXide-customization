@@ -7,30 +7,62 @@
 .tab[title$=".xqm"],
 .tab[title$=".xq"],
 .tab[title$=".xquery"])
-
 {
     background: lightgreen !important;
-    
+}
+
+
+:is(.tab[title$=".xsl"],
+.tab[title$=".xslt"])
+{
+    background: #f3e680 !important;
 }
 
 
 .tab[title$=".html"],
 .tab[title$=".htm"]
 {
-    background: #fae1b4 !important;
-    
+    background: #ffca48 !important;
+  
+}
+
+.tab[title$=".css"]
+{
+    background: #f5b4fa !important;
+  
+}
+
+.tab[title$=".js"],
+.tab[title$=".json"]
+{
+    background: #fab4b4 !important;
+  
 }
 
 
-#tabs .tab:hover {
-    background-color: #f1e0e0 !important;
+
+#tabs .tab{
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    text-shadow:none;
     
 }
+
 
 
 /* active tabs */
 #tabs .active {
-      background-color: #f1e0e0 !important;
+ /*   background-color: #f1e0e0 !important;*/
+    padding-top: 10px !important;
+    font-size: 80%;
+    /*box-shadow: 0px 0px 2px 4px rgba(255, 251, 140, .56);
+    z-index: 100;*/
+    color:white;
+    background-color: black;
+
+    
+    
     
 }
 
@@ -38,6 +70,7 @@
 #tabs .tab[title$=".xml"].active {
     background-color: blue !important;
     color: white;
+    
     
 }
 
@@ -50,6 +83,16 @@
     
 }
 
+#tabs .tab[title$=".xsl"].active,
+#tabs .tab[title$=".xslt"].active
+{
+       background: #d2b73f !important;
+
+    color:white;
+    
+}
+
+
 
 #tabs :is(.tab[title$=".html"],
 .tab[title$=".htm"]).active 
@@ -58,3 +101,56 @@
     color:white;
     
 }
+
+
+#tabs .tab[title$=".css"].active 
+{
+    background: #aa3fb3 !important;
+    color:white;
+    
+}
+
+#tabs .tab[title$=".js"].active,
+#tabs .tab[title$=".json"].active 
+
+{
+       background: #d23f3f !important;
+
+    color:white;
+    
+}
+
+
+
+/* Sidebar */
+/*
+.resource[data-key$=".xml"] > span {
+        color: #9393ee !important;
+
+    
+}
+
+:is(.resource[data-key$=".xql"], 
+.resource[data-key$=".xq"],
+.resource[data-key$=".xqm"],
+.resource[data-key$=".xquery"])
+> span {
+        color: #34bd34 !important;
+
+    
+}*/
+
+/*
+#tabs .tab:hover {
+    background-color: #f1e0e0 !important;
+    
+}*/
+
+/* does not work well now... */
+
+/*
+#tabs .active:hover {
+    background-color: #f1e0e0 !important;
+    
+}
+*/
